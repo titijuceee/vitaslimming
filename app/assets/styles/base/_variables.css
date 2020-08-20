@@ -1,4 +1,9 @@
 $mainColor: #00B7B7;
 $mainAccent: #DE2883;
 $mainDark: #0B4545;
-$mainGradient: linear-gradient(45deg, rgba(0,183,183,1) 0%, rgba(87,237,237,1) 100%);
+$mainBlack: #242424;
+
+$mainGradient45: linear-gradient(45deg, rgba(0,183,183,1) 0%, rgba(87,237,237,1) 100%);
+$mainGradient90: linear-gradient(90deg, rgba(0,183,183,1) 0%, rgba(87,237,237,1) 100%);
+
+$mainFont: 'Nunito', sans-serif;
