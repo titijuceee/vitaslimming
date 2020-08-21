@@ -1,0 +1,6 @@
+.wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 18px;
+  max-width: 1200px;
+}

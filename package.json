@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/titijuceee/vitaslimming#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
