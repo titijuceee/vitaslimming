@@ -1,0 +1,42 @@
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 0;
+
+  & a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .3s ease-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  & li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  &__main-nav {
+    position: relative;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &::after {
+      position: absolute;
+      content: '';
+      top: 40px;
+      left: 50%;
+      transform: translate(-150px);
+      width: 300px;
+      height: 1px;
+      background-color: #ffffff;
+    }
+  }
+}
